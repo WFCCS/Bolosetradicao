@@ -1,0 +1,80 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Corpo da página */
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(120deg, saddlebrown c6, saddlebrown);
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background:saddlebrown;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /* Container principal */
+  .container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background:saddlebrown;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1.5s ease;
+  }
+  
+  /* Animação de fade-in */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .container p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #fffefe;
+  }
+
+  body{
+    background-image:url(image.png)
+     ;
+ 
+
+  }
+  
+  /* Rodapé */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #fff;
+    padding: 10px 0;
+  }
+  .img-div { 
+    background: url("image.png") no-repeat center center;
+    background-size: cover;
+  }
